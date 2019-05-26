@@ -1,0 +1,24 @@
+{
+  "name": "ts-koa-web",
+  "version": "1.0.0",
+  "description": "",
+  "main": "app.js",
+  "scripts": {},
+  "keywords": [
+    "koa",
+    "typescript",
+    "node",
+    "IOC",
+    "InversityJS"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/koa-router": "^7.0.40",
+    "glob": "^7.1.4",
+    "inversify": "^5.0.1",
+    "inversify-binding-decorators": "^4.0.0",
+    "inversify-koa-utils": "^1.0.0",
+    "reflect-metadata": "^0.1.13"
+  }
+}
