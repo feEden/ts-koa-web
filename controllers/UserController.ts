@@ -16,7 +16,8 @@ export class UserController implements interfaces.Controller {
     @httpGet("/getUser")
     private async queryUser(ctx: Router.IRouterContext, next: () => Promise<any>): Promise<any> {
         const result: userModel.User = this.userService.query(0);
-        ctx.body = result;
+        ctx.body = await ctx.render("index", {
+            data:result.uname
+        });
     }
-
 }
